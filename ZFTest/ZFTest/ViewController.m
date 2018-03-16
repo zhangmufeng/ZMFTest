@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Person.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    Person *p = [[Person alloc] init];
     NSLog(@"Hello ZMF");
 }
 
